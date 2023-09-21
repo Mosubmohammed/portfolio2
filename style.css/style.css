@@ -326,11 +326,68 @@ opacity: .1;
 
 .home__info-description,
 .home__info-number{
-    
+    font-family: var(--title-font);
+    color: var(--title-color);
+}
+
+.home__info-description{
+    padding-right: 4rem;
+
+}
+.home__info-number{
+font-size: var(--h1-font-size);
+font-weight: var(--font-semi-bold);
 }
 /*=============== SKILLS ===============*/
 
+.skills__container{
+    row-gap: 3.5rem;
+}
 
+.skills__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi-bold);
+    margin-bottom: 2.5rem;
+}
+
+.skills__title i{
+    font-size: 1rem;
+    font-weight: initial;
+}
+
+.skills__info,
+.skills__data,
+.skills__blob{
+    display: grid;
+}
+
+
+.skills__info{
+    grid-template-columns: repeat(3, 1fr);
+    grid:2.5rem 2rem;
+}
+.skills__data{
+    justify-content: center;
+    text-align: center;
+}
+
+.skills__blob{
+    width: 80px;
+    height: 100px;
+    background-color: var(--container-color);
+    border-radius: 3rem;
+    place-items: center;
+    margin-bottom: 1rem;
+}
+
+.skills__blob img{
+    width: 40px;
+
+}
 /* Animation skills */
 
 
