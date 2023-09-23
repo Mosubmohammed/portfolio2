@@ -40,12 +40,23 @@ let swiperProjects = new Swiper(".projects__container", {
     pagination: {
       el: ".swiper-pagination",
     },
-    mousewheel: true,
-    keyboard: true,
+    breakpoints: {
+      1200: {
+        slidesPerView: 2,
+        spaceBetween: -56,
+      },
+ 
+    },
   });
 
 // /*=============== SWIPER TESTIMONIAL ===============*/
-
+let swiperTestimonial = new Swiper(".testimonial__container", {
+  grabCursor:true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
 
 // /*=============== EMAIL JS ===============*/
 
