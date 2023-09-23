@@ -501,7 +501,7 @@ font-weight:initial ;
     font-size: 2rem;
     color: var(--title-color);
     margin-bottom: .75rem;
-    transition: transfrom .8s;
+    transition: transform .8s;
 }
 
 .services__title{
@@ -531,7 +531,6 @@ font-weight:initial ;
     opacity: 1;
 }
 /*=============== PROJECTS ===============*/
-
 .project__container{
     overflow: initial;
 }

@@ -58,6 +58,14 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
   },
 });
 
+
+let swiperTestimonial =       new Swiper(".testimonial__container", {
+  grabCursor:true,
+          navigation:     {
+    nextEl: "       .swiper-button-next",
+prevEl: ".     swiper-button-prev",
+  },
+})         ;
 // /*=============== EMAIL JS ===============*/
 
 
